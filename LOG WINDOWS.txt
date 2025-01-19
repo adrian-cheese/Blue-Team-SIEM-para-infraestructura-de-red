@@ -1,0 +1,147 @@
+{
+  "@timestamp": [
+    "2025-01-19T16:59:58.350Z"
+  ],
+  "agent.ephemeral_id": [
+    "ed77188b-c5f8-48bc-acf4-470e7ce1dccb"
+  ],
+  "agent.id": [
+    "d1053e49-5fb1-45be-860b-b59584b679e2"
+  ],
+  "agent.name": [
+    "Windows"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.17.0"
+  ],
+  "component.binary": [
+    "metricbeat"
+  ],
+  "component.dataset": [
+    "elastic_agent.metricbeat"
+  ],
+  "component.id": [
+    "system/metrics-default"
+  ],
+  "component.type": [
+    "system/metrics"
+  ],
+  "data_stream.dataset": [
+    "elastic_agent.metricbeat"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.0.0"
+  ],
+  "elastic_agent.id": [
+    "d1053e49-5fb1-45be-860b-b59584b679e2"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "8.17.0"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.dataset": [
+    "elastic_agent.metricbeat"
+  ],
+  "event.ingested": [
+    "2025-01-19T17:00:08.000Z"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.hostname": [
+    "Windows"
+  ],
+  "host.id": [
+    "f015d302-eaaf-48ac-aec9-5bb55b607351"
+  ],
+  "host.ip": [
+    "fe80::3e25:df56:8800:d7ca",
+    "192.168.100.102"
+  ],
+  "host.mac": [
+    "08-00-27-52-DB-3C"
+  ],
+  "host.name": [
+    "windows"
+  ],
+  "host.os.build": [
+    "19045.5371"
+  ],
+  "host.os.family": [
+    "windows"
+  ],
+  "host.os.kernel": [
+    "10.0.19041.5369 (WinBuild.160101.0800)"
+  ],
+  "host.os.name": [
+    "Windows 10 Home"
+  ],
+  "host.os.name.text": [
+    "Windows 10 Home"
+  ],
+  "host.os.platform": [
+    "windows"
+  ],
+  "host.os.type": [
+    "windows"
+  ],
+  "host.os.version": [
+    "10.0"
+  ],
+  "input.type": [
+    "filestream"
+  ],
+  "log.file.idxhi": [
+    "196608"
+  ],
+  "log.file.idxlo": [
+    "95887"
+  ],
+  "log.file.path": [
+    "C:\\Program Files\\Elastic\\Agent\\data\\elastic-agent-8.17.0-96f2b9\\logs\\elastic-agent-20250119-5.ndjson"
+  ],
+  "log.file.vol": [
+    "3759370546"
+  ],
+  "log.level": [
+    "error"
+  ],
+  "log.offset": [
+    194575
+  ],
+  "log.origin.file.line": [
+    324
+  ],
+  "log.origin.file.name": [
+    "module/wrapper.go"
+  ],
+  "log.origin.function": [
+    "github.com/elastic/beats/v7/metricbeat/mb/module.(*metricSetWrapper).handleFetchError"
+  ],
+  "log.source": [
+    "system/metrics-default"
+  ],
+  "message": [
+    "Error fetching data for metricset system.process: Not enough privileges to fetch information: Not enough privileges to fetch information: GetInfoForPid: could not get all information for PID 0: error fetching name: OpenProcess failed for pid=0: El parámetro no es correcto.\nerror fetching status: OpenProcess failed for pid=0: El parámetro no es correcto.\nGetInfoForPid: could not get all information for PID 4: error fetching name: GetProcessImageFileName failed for pid=4: GetProcessImageFileName failed: invalid argument\nnon fatal error fetching PID some info for 92, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 328, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 416, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 492, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 500, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 616, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 1800, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 2684, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 2796, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 3408, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 3992, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 3124, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 6428, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 6968, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado.\nnon fatal error fetching PID some info for 4124, metrics are valid, but partial: FillMetricsRequiringMoreAccess: error fetching process args: Not enough privileges to fetch information: OpenProcess failed: Acceso denegado."
+  ],
+  "service.name": [
+    "metricbeat"
+  ],
+  "_id": "3quBf5QBpn8jiP_Z6cT4",
+  "_index": ".ds-logs-elastic_agent.metricbeat-default-2025.01.14-000001",
+  "_score": null
+}

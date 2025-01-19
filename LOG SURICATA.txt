@@ -1,0 +1,181 @@
+{
+  "@timestamp": [
+    "2025-01-18T19:58:58.404Z"
+  ],
+  "agent.ephemeral_id": [
+    "ede468f6-3536-4975-af0d-147d5f996ee0"
+  ],
+  "agent.id": [
+    "706d964b-c274-463c-bccb-b3dec310eb73"
+  ],
+  "agent.name": [
+    "kali"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.17.0"
+  ],
+  "data_stream.dataset": [
+    "suricata.eve"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "destination.address": [
+    "192.168.250.1"
+  ],
+  "destination.bytes": [
+    245
+  ],
+  "destination.ip": [
+    "192.168.250.1"
+  ],
+  "destination.packets": [
+    1
+  ],
+  "destination.port": [
+    53
+  ],
+  "ecs.version": [
+    "8.11.0"
+  ],
+  "elastic_agent.id": [
+    "706d964b-c274-463c-bccb-b3dec310eb73"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "8.17.0"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.category": [
+    "network"
+  ],
+  "event.created": [
+    "2025-01-19T13:30:58.996Z"
+  ],
+  "event.dataset": [
+    "suricata.eve"
+  ],
+  "event.duration": [
+    10000000
+  ],
+  "event.end": [
+    "2025-01-18T19:58:16.384Z"
+  ],
+  "event.ingested": [
+    "2025-01-19T13:31:09.000Z"
+  ],
+  "event.kind": [
+    "event"
+  ],
+  "event.module": [
+    "suricata"
+  ],
+  "event.start": [
+    "2025-01-18T19:58:16.374Z"
+  ],
+  "event.type": [
+    "connection"
+  ],
+  "input.type": [
+    "log"
+  ],
+  "log.file.path": [
+    "/var/log/suricata/eve.json"
+  ],
+  "log.offset": [
+    9549557
+  ],
+  "network.bytes": [
+    383
+  ],
+  "network.community_id": [
+    "1:h3czfd949P0/fiDLiZ7iM4D1Ad4="
+  ],
+  "network.packets": [
+    2
+  ],
+  "network.protocol": [
+    "dns"
+  ],
+  "network.transport": [
+    "udp"
+  ],
+  "observer.hostname": [
+    "kali"
+  ],
+  "observer.ip": [
+    "192.168.250.99",
+    "fe80::dbd2:dfef:9273:c67c",
+    "172.17.0.1"
+  ],
+  "observer.mac": [
+    "02-42-91-47-49-3F",
+    "08-00-27-B7-70-14"
+  ],
+  "observer.product": [
+    "Suricata"
+  ],
+  "observer.type": [
+    "ids"
+  ],
+  "observer.vendor": [
+    "OISF"
+  ],
+  "related.ip": [
+    "192.168.250.99",
+    "192.168.250.1"
+  ],
+  "source.address": [
+    "192.168.250.99"
+  ],
+  "source.bytes": [
+    138
+  ],
+  "source.ip": [
+    "192.168.250.99"
+  ],
+  "source.packets": [
+    1
+  ],
+  "source.port": [
+    33163
+  ],
+  "suricata.eve.event_type": [
+    "flow"
+  ],
+  "suricata.eve.flow.age": [
+    0
+  ],
+  "suricata.eve.flow.alerted": [
+    false
+  ],
+  "suricata.eve.flow.reason": [
+    "shutdown"
+  ],
+  "suricata.eve.flow.state": [
+    "established"
+  ],
+  "suricata.eve.flow_id": [
+    "202964305378473"
+  ],
+  "suricata.eve.in_iface": [
+    "eth0"
+  ],
+  "tags": [
+    "forwarded",
+    "suricata-eve"
+  ],
+  "_id": "vkjCfpQBgpxfYYWclgPs",
+  "_index": ".ds-logs-suricata.eve-default-2025.01.19-000001",
+  "_score": null
+}

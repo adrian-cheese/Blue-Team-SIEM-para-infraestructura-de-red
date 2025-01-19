@@ -1,0 +1,119 @@
+{
+  "@timestamp": [
+    "2025-01-19T17:27:02.842Z"
+  ],
+  "agent.ephemeral_id": [
+    "79ac7e24-84d0-4c94-86a0-12ed7e8f0e08"
+  ],
+  "agent.id": [
+    "4abda28b-b8e8-4e27-9443-91f44fb82640"
+  ],
+  "agent.name": [
+    "kali"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "8.17.0"
+  ],
+  "data_stream.dataset": [
+    "generic"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.0.0"
+  ],
+  "elastic_agent.id": [
+    "4abda28b-b8e8-4e27-9443-91f44fb82640"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "8.17.0"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.dataset": [
+    "generic"
+  ],
+  "event.ingested": [
+    "2025-01-19T17:27:04.000Z"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.containerized": [
+    false
+  ],
+  "host.hostname": [
+    "kali"
+  ],
+  "host.id": [
+    "30e662c5c81d4191bd2444a79c97d2e0"
+  ],
+  "host.ip": [
+    "192.168.200.99",
+    "fe80::919b:6f8b:8475:5690",
+    "172.17.0.1",
+    "fe80::42:e7ff:fe5d:d817",
+    "fe80::e424:10ff:fe26:bc9f"
+  ],
+  "host.mac": [
+    "02-42-E7-5D-D8-17",
+    "08-00-27-AD-25-87",
+    "E6-24-10-26-BC-9F"
+  ],
+  "host.name": [
+    "kali"
+  ],
+  "host.os.codename": [
+    "kali-rolling"
+  ],
+  "host.os.family": [
+    "debian"
+  ],
+  "host.os.kernel": [
+    "6.11.2-amd64"
+  ],
+  "host.os.name": [
+    "Kali GNU/Linux"
+  ],
+  "host.os.name.text": [
+    "Kali GNU/Linux"
+  ],
+  "host.os.platform": [
+    "kali"
+  ],
+  "host.os.type": [
+    "linux"
+  ],
+  "host.os.version": [
+    "2024.4"
+  ],
+  "input.type": [
+    "log"
+  ],
+  "log.file.path": [
+    "/home/kali/cowrie-logs/logs.log"
+  ],
+  "log.file.path.text": [
+    "/home/kali/cowrie-logs/logs.log"
+  ],
+  "log.offset": [
+    10127
+  ],
+  "message": [
+    "2025-01-19T17:26:58+0000 [HoneyPotSSHTransport,3,192.168.0.16] Command found: ls "
+  ],
+  "_id": "Jquaf5QBpn8jiP_ZkstZ",
+  "_index": ".ds-logs-generic-default-2025.01.19-000001",
+  "_score": null
+}
